@@ -14,13 +14,13 @@
         <Polygon fx:id="puzzle" fill="#576c7f42" layoutX="638.0" layoutY="424.0" points="95.06600952148438, -264.0660095214844, -45.5, -123.0, -45.5, -51.933990478515625, 24.710693359375, 19.20001220703125, -46.20001220703125, 19.20001220703125, -117.0, -51.5, -187.0, -122.28932189941406, -187.0, -193.0, -257.7106628417969, -193.0, -187.06600952148438, -264.0660095214844, -116.289306640625, -193.0, -46.20001220703125, -264.0660095214844" stroke="BLACK" strokeType="INSIDE" />
 
 
-        <Polygon fx:id="large2" fill="#6690c7" layoutX="105.0" layoutY="347.0" opacity="0.68" points="0.0, 0.0, 200.0, 0.0, 100.0, -100.0" rotate="180.0" stroke="BLACK" strokeType="INSIDE" />
-        <Polygon fx:id="small2" fill="#5f9dcc" layoutX="130.0" layoutY="320.0" opacity="0.68" points="200.0, 0.0, 100.0, 0.0, 150.0, -50.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE" />
-        <Polygon fx:id="mid" fill="#aeccec" layoutX="205.0" layoutY="446.0" opacity="0.68" points="0.0, 0.0, 100.0, 0.0, 100.0, -100.0" stroke="BLACK" strokeType="INSIDE" />
-        <Polygon fx:id="parallelogram" fill="#409fd7" layoutX="55.0" layoutY="496.0" opacity="0.68" points="50.0, -50.0, 150.0, -50.0, 200.0, -100.0, 100.0, -100.0" stroke="BLACK" strokeType="INSIDE" />
-        <Rectangle fx:id="rectangle" fill="#409fd7" height="71.5" layoutX="219.0" layoutY="310.0" opacity="0.68" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="71.5" />
-        <Polygon fx:id="large1" fill="#6690c7" layoutX="55.0" layoutY="396.0" opacity="0.68" points="0.0, 0.0, 200.0, 0.0, 100.0, -100.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" />
-        <Polygon fx:id="small1" fill="#5f9dcc" layoutX="55.0" layoutY="396.0" opacity="0.68" points="200.0, 0.0, 100.0, 0.0, 150.0, -50.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="large2" fill="#6690c7" layoutX="105.0" layoutY="347.0" opacity="0.67" points="0.0, 0.0, 200.0, 0.0, 100.0, -100.0" rotate="180.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="small2" fill="#5f9dcc" layoutX="130.0" layoutY="320.0" opacity="0.67" points="200.0, 0.0, 100.0, 0.0, 150.0, -50.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="mid" fill="#aeccec" layoutX="205.0" layoutY="446.0" opacity="0.67" points="0.0, 0.0, 100.0, 0.0, 100.0, -100.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="parallelogram" fill="#409fd7" layoutX="55.0" layoutY="496.0" opacity="0.67" points="50.0, -50.0, 150.0, -50.0, 200.0, -100.0, 100.0, -100.0" stroke="BLACK" strokeType="INSIDE" />
+        <Rectangle fx:id="rectangle" fill="#409fd7" height="71.5" layoutX="219.0" layoutY="310.0" opacity="0.67" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="71.5" />
+        <Polygon fx:id="large1" fill="#6690c7" layoutX="55.0" layoutY="396.0" opacity="0.67" points="0.0, 0.0, 200.0, 0.0, 100.0, -100.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="small1" fill="#5f9dcc" layoutX="55.0" layoutY="396.0" opacity="0.67" points="200.0, 0.0, 100.0, 0.0, 150.0, -50.0" stroke="BLACK" strokeType="INSIDE" />
         <Button fx:id="nextButton" layoutX="638.0" layoutY="519.0" mnemonicParsing="false" onAction="#nextButtonClicked" prefHeight="6.0" prefWidth="165.0" style="-fx-background-color: #fafafa;" text="NEXT" textFill="#0096b0">
             <font>
                 <Font name="Txt_IV50" size="28.0" />
