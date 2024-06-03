@@ -42,7 +42,7 @@ public class Story1Controller implements Initializable {
     @FXML
     private ImageView back;
 
-    private static final double slideDuration = 2.0;
+    private static final double slideDuration = 1.9;
 
     private static final String textToShow1 = "Once upon a time in ancient China, there lived a clever young man named Tan." +
             " Tan had a big dream – he wanted to create something extraordinary that no one had ever seen before." +
