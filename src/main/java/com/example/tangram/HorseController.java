@@ -70,10 +70,10 @@ public class HorseController {
 
     @FXML
     private void initialize() {
-        Image image = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\horseback.png");
+        Image image = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\horseback.png");
         background.setImage(image);
 
-        Image woodTexture = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\wood.png", false);
+        Image woodTexture = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\wood.png", false);
 
 
         large2.setFill(new ImagePattern(woodTexture));

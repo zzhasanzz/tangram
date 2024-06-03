@@ -46,9 +46,9 @@ public class ResultController {
 
     @FXML
     private void initialize() {
-        Image image = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\horseback.png");
+        Image image = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\horseback.png");
         background.setImage(image);
-        Image spark = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\win.gif");
+        Image spark = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\win.gif");
         sparkles1.setImage(spark);
         sparkles2.setImage(spark);
     }
@@ -66,7 +66,7 @@ public class ResultController {
     }
 
     private void updateStars(int time) {
-        Image starTexture = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\shine.png", false);
+        Image starTexture = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\shine.png", false);
 
         if (time <= 60) {
             star1.setFill(new ImagePattern(starTexture));

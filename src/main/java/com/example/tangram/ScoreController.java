@@ -33,7 +33,7 @@ public class ScoreController {
     @FXML
     private void initialize() {
 
-        Image image = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\highscores.png");
+        Image image = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\highscores.png");
         background.setImage(image);
         // Initialize the TableView columns
         levelColumn.setCellValueFactory(new PropertyValueFactory<>("level"));

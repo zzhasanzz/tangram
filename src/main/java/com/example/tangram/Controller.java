@@ -32,10 +32,10 @@ public class Controller {
 
     @FXML
     private void initialize() {
-        Image image1 = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\tangram_background.png");
+        Image image1 = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\tangram_background.png");
         background.setImage(image1);
 
-        Image image2 = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\logo1.png");
+        Image image2 = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\logo1.png");
         logo.setImage(image2);
     }
 
