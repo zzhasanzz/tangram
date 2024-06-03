@@ -45,10 +45,10 @@ public class Story2Controller implements Initializable {
     private boolean isFirstText = true;
 
     public void initialize(URL location, ResourceBundle resources) {
-        Image image = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\6.png");
+        Image image = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\6.png");
         back.setImage(image);
 
-        Image image1 = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\king_2074820.png");
+        Image image1 = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\king_2074820.png");
         king.setImage(image1);
 
         animateText(textToShow1);

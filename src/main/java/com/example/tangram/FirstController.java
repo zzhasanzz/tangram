@@ -27,7 +27,7 @@ public class FirstController {
     private Parent root;
 
     public void initialize() {
-        Image image1 = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\about.png");
+        Image image1 = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\about.png");
         background.setImage(image1);
     }
 

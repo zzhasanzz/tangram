@@ -34,10 +34,10 @@ public class LoadingController {
 
     public void initialize() {
 
-        Image image1 = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\loadingback.png");
+        Image image1 = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\loadingback.png");
         back.setImage(image1);
 
-        Image image2 = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\loadgif2.gif");
+        Image image2 = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\loadgif2.gif");
         tangif.setImage(image2);
 
         Timeline timeline = new Timeline(

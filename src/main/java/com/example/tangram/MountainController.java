@@ -66,7 +66,7 @@ public class MountainController {
 
     @FXML
     private void initialize() {
-        Image image = new Image("F:\\testGit\\tangram\\src\\main\\resources\\images\\puzzle.png");
+        Image image = new Image("C:\\Users\\X1 Carbon\\Documents\\tangram\\tangram\\src\\main\\resources\\images\\puzzle.png");
         background.setImage(image);
 
         makeDraggable(rectangle);
