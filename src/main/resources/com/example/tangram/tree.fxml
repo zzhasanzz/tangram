@@ -26,6 +26,13 @@
                 <Font name="Txt_IV50" size="28.0" />
             </font>
         </Button>
+
+        <Button fx:id="backButton" layoutX="560.0" layoutY="519.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#backPressed" prefHeight="59.0" prefWidth="59.0" style="-fx-background-color: #fafafa;" text="&lt;" textFill="#0096b0">
+            <font>
+                <Font name="Txt_IV50" size="27.0" />
+            </font>
+        </Button>
+
         <Label fx:id="timerLabel" layoutX="625.0" layoutY="41.0" prefHeight="59.0" prefWidth="165.0" style="-fx-background-color: #fafafa;" textAlignment="CENTER" textFill="#0098b0">
             <font>
                 <Font size="26.0" />

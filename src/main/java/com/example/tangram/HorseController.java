@@ -54,6 +54,8 @@ public class HorseController {
     @FXML
     private Button nextButton;
     @FXML
+    private Button backButton;
+    @FXML
     private Label timerLabel;
 
     private int currentLevel = 2;
@@ -94,6 +96,21 @@ public class HorseController {
         timerLabel.setText(" Time: 00:00 ");
         setupTimer();
         startTimer();
+    }
+
+    @FXML
+    private void backPressed() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(Tangram.class.getResource("opening-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 827, 603);
+
+
+        Stage stage = (Stage) rootPane.getScene().getWindow();
+
+
+        stage.setTitle("Tangram");
+        stage.setScene(scene);
+        stage.setResizable(false);
+        stage.show();
     }
 
     private void startTimer() {

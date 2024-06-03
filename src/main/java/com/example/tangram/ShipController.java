@@ -110,10 +110,8 @@ public class ShipController {
         FXMLLoader fxmlLoader = new FXMLLoader(Tangram.class.getResource("opening-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 827, 603);
 
-        // Get the current stage
-        Stage stage = (Stage) rootPane.getScene().getWindow();  // Assuming scoreTableView is a node in your current scene
+        Stage stage = (Stage) rootPane.getScene().getWindow();
 
-        // Set the new scene
         stage.setTitle("Tangram");
         stage.setScene(scene);
         stage.setResizable(false);
