@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tangram.HorseController">
+    <children>
+        <ImageView fx:id="background" fitHeight="603.0" fitWidth="827.0" pickOnBounds="true" preserveRatio="true" />
+        <Polygon fx:id="puzzle" fill="#576c7f42" layoutX="230.0" layoutY="475.0" points="233.60000610351562, -79.60000610351562, 226.60000610351562, -72.0, 276.79998779296875, -22.79998779296875, 276.79998779296875, -120.60000610351562, 372.4000244140625, -120.60000610351562, 324.0, -71.0, 424.75, -71.0, 475.0, -121.0, 426.4000244140625, -171.0, 475.60003662109375, -221.59999084472656, 526.0, -171.0, 526.0, -272.20001220703125, 424.75, -272.20001220703125, 374.0, -221.59999084472656, 235.4000244140625, -221.59999084472656, 235.4000244140625, -291.0, 164.0, -291.0, 233.60000610351562, -219.8000030517578" stroke="BLACK" strokeType="INSIDE" />
+
+
+        <Polygon fx:id="large2" fill="#6791c7" layoutX="104.0" layoutY="338.0" opacity="0.79" points="0.0, 0.0, 200.0, 0.0, 100.0, -100.0" rotate="180.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="small2" fill="#5f9dcc" layoutX="129.0" layoutY="313.0" opacity="0.79" points="200.0, 0.0, 100.0, 0.0, 150.0, -50.0" rotate="270.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="mid" fill="#aeccec" layoutX="204.0" layoutY="437.0" opacity="0.79" points="0.0, 0.0, 100.0, 0.0, 100.0, -100.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="parallelogram" fill="#409fd7" layoutX="54.0" layoutY="487.0" opacity="0.79" points="50.0, -50.0, 150.0, -50.0, 200.0, -100.0, 100.0, -100.0" stroke="BLACK" strokeType="INSIDE" />
+        <Rectangle fx:id="rectangle" fill="#409fd7" height="71.5" layoutX="218.0" layoutY="301.0" opacity="0.79" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="71.5" />
+        <Polygon fx:id="large1" fill="#6690c7" layoutX="54.0" layoutY="387.0" opacity="0.79" points="0.0, 0.0, 200.0, 0.0, 100.0, -100.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" />
+        <Polygon fx:id="small1" fill="#5f9dcc" layoutX="54.0" layoutY="387.0" opacity="0.79" points="200.0, 0.0, 100.0, 0.0, 150.0, -50.0" stroke="BLACK" strokeType="INSIDE" />
+        <Button fx:id="nextButton" layoutX="638.0" layoutY="519.0" mnemonicParsing="false" onAction="#nextButtonClicked" prefHeight="6.0" prefWidth="165.0" style="-fx-background-color: #fafafa;" text="NEXT" textFill="#0096b0">
+            <font>
+                <Font name="Txt_IV50" size="28.0" />
+            </font>
+        </Button>
+        <Label fx:id="timerLabel" layoutX="625.0" layoutY="41.0" prefHeight="59.0" prefWidth="165.0" style="-fx-background-color: #fafafa;" textAlignment="CENTER" textFill="#0098b0">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Label>
+    </children>
+</Pane>

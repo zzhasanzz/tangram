@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tangram.Controller">
+   <children>
+      <ImageView fx:id="background" fitHeight="603.0" fitWidth="827.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="startButton" layoutX="238.0" layoutY="349.0" mnemonicParsing="false" onAction="#startPressed" prefHeight="59.0" prefWidth="343.0" style="-fx-background-color: #fafafa;" text="Start" textFill="#0096b0">
+         <font>
+            <Font name="Txt_IV50" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="resumeButton" layoutX="238.0" layoutY="421.0" mnemonicParsing="false" onAction="#resumePressed" prefHeight="59.0" prefWidth="343.0" style="-fx-background-color: #fafafa;" text="Resume" textFill="#0097b2">
+         <font>
+            <Font name="Txt_IV50" size="29.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="logo" fitHeight="183.0" fitWidth="343.0" layoutX="239.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="score" layoutX="238.0" layoutY="495.0" mnemonicParsing="false" onAction="#scorePressed" prefHeight="59.0" prefWidth="343.0" style="-fx-background-color: #fafafa;" text="High Scores" textFill="#0097b2">
+         <font>
+            <Font name="Txt_IV50" size="29.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

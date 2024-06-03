@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="loadingPane" prefHeight="603.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tangram.LoadingController">
+    <children>
+        <ImageView  fx:id="back" fitHeight="612.0" fitWidth="827.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+
+        </ImageView>
+        <ProgressBar fx:id="progressBar" layoutX="218.0" layoutY="325.0" prefHeight="44.0" prefWidth="390.0" progress="0.0" style="-fx-background-color: #0096b0;" />
+        <ImageView fx:id="tangif" fitHeight="150.0" fitWidth="200.0" layoutX="331.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+        </ImageView>
+    </children>
+</AnchorPane>

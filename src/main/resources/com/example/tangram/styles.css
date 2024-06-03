@@ -1,0 +1,24 @@
+.table-view {
+    -fx-background-color: lightblue;
+    -fx-font-size: 20px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f0f8ff;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #e0ffff;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #b0e0e6;
+}
+
+.table-view .filler {
+    -fx-background-color: lightblue;
+}
+
+.table-cell {
+    -fx-alignment: CENTER;
+}
